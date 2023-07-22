@@ -5,10 +5,11 @@ This project implements a generator for all permutations of a given
 size.  The algorithm used by the generator appears in section 7.2.1.2
 of Donald Knuth's "The Art of Computer Programming, Volume 4A" where
 it is called "Algorithm P".  It is known to have been used by `secular
-bell ringing societies`_<https://www.historytoday.com/archive/months-past/ringing-changes`
+bell ringing societies
+<https://www.historytoday.com/archive/months-past/ringing-changes>`_
 in 17th century England.  They called it *the method of plain changes*.
 It appears in a 1653 manuscript by Peter Mundy.  A description of the
-method occupies the first 60 pages of "Tintinalogia" which was written
+method occupies the first 60 pages of "Tintinnalogia" which was written
 by Richard Duckman and Fabian Stedman and published in 1668.
 
 The algorithm is easy to describe recursively.  Given a list L of all
