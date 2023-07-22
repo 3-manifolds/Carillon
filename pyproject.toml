@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "carillon"
+dynamic = ["version"]
+description = "A python generator for elements of a permutation group."
+readme = {file = "README.rst", content-type = "text/x-rst"}
+authors = [
+    { name="Marc Culler", email="culler@users.noreply.github.com" },
+    { name="Nathan M. Dunfield", email="nathan@dunfield.info" },
+    { name="Matthias Görner", email="enischte@gmail.com" },
+]
+maintainers = [
+    { name="Marc Culler", email="culler@users.noreply.github.com" },
+    { name="Nathan M. Dunfield", email="nathan@dunfield.info" },
+    { name="Matthias Görner", email="enischte@gmail.com" },
+]
+requires-python = ">=3.10"
+keywords = ["permutations", "generator", "ring changes"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Documentation"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/3-manifolds/carillon"
+"Bug Tracker" = "https://github.com/3-manifolds/carillon/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "permutations.__version__"}
