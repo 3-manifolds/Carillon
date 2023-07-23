@@ -25,10 +25,10 @@ no bookkeeping.  Knuth poses, as Exercise 16, the problem of how
 to use this observation to speed up the algortithm.
 
 The book includes answers to all exercises and, as one would expect,
-the solution of Exercise 16 is not correct.  The published solution
-clearly contains typographical errors; it is not clear how to correct
-those errors to obtain an algorithm which works.  This code can be
-viewed as an alternative solution of Exercise 16, based on similar
+the solution of Exercise 16 is not correct.  At the least, the
+published pseudocode is ambiguous, and it is not clear how to resolve
+the ambiguities to obtain an algorithm which works.  This project can
+be viewed as an alternative solution of Exercise 16, based on the same
 ideas but implemented differently from the solution in the book.
 
 
