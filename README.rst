@@ -25,7 +25,7 @@ no bookkeeping.  Knuth poses, as Exercise 16, the problem of how
 to use this observation to speed up the algortithm.
 
 The book includes answers to all exercises and, not surprisingly, the
-pseudocode given as the solution of Exercise 16 is somehwat ambiguous.
+pseudocode given as the solution of Exercise 16 is somewhat ambiguous.
 It is not clear how to resolve the ambiguities to obtain an algorithm
 which works.  Presumably this is a pedagogical technique, intended to
 encourage a student to actually do the exercise. This project can be
