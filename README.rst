@@ -24,11 +24,12 @@ shifting the element n to the left or the right, which requires almost
 no bookkeeping.  Knuth poses, as Exercise 16, the problem of how
 to use this observation to speed up the algortithm.
 
-The book includes answers to all exercises and, as one would expect,
-the solution of Exercise 16 is not correct.  At the least, the
-published pseudocode is ambiguous, and it is not clear how to resolve
-the ambiguities to obtain an algorithm which works.  This project can
-be viewed as an alternative solution of Exercise 16, based on the same
-ideas but implemented differently from the solution in the book.
+The book includes answers to all exercises and, not surprisingly, the
+pseudocode given as the solution of Exercise 16 is somehwat ambiguous.
+It is not clear how to resolve the ambiguities to obtain an algorithm
+which works.  Presumably this is a pedagogical technique, intended to
+encourage a student to actually do the exercise. This project can be
+viewed as a solution of Exercise 16, based on the same ideas as the
+solution in the book but implemented differently.
 
 
